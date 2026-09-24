@@ -1,0 +1,9 @@
+{
+  "name": "mcp-pg-ecosoft",
+  "version": "1.0.0",
+  "description": "Servidor MCP para acesso a bancos PostgreSQL: query, execute, transaction, list_tables, describe_table e suporte a multiplos servidores.",
+  "author": {
+    "name": "Ecosoft",
+    "email": "luiz.arlindo@ecosoft.com.br"
+  }
+}

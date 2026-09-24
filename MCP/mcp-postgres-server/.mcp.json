@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "postgres": {
+      "command": "C:/nvm4w/nodejs/node.exe",
+      "args": ["C:/DSI/Git/MCPs/mcp-postgres-server/dist/index.js"],
+      "cwd": "C:/DSI/Git/MCPs/mcp-postgres-server/dist"
+    }
+  }
+}

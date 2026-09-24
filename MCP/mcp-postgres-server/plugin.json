@@ -1,0 +1,8 @@
+{
+  "name": "postgres",
+  "version": "0.1.0",
+  "description": "PostgreSQL database integration via local MCP server",
+  "author": {
+    "name": "Ecosoft"
+  }
+}
