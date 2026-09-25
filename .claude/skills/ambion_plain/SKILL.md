@@ -5,7 +5,7 @@ description: Planning conversation for a new AMBION change, before any PRD or co
 
 # ambion_plain — Planejamento de atividade AMBION
 
-Segunda etapa da cadeia `ambion_constituir` → `ambion_plain` → `ambion_spec` → `ambion_task` → `ambion_execute` → `ambion_review`. Esta skill não escreve PRD nem código — só conduz a conversa de planejamento, grava o resultado e aciona a próxima etapa.
+Segunda etapa da cadeia `ambion_constituir` → `ambion_plain` → `ambion_spec` → `ambion_techspec` → `ambion_task` → `ambion_execute` → `ambion_review`. Esta skill não escreve PRD nem código — só conduz a conversa de planejamento, grava o resultado e aciona a próxima etapa.
 
 ## Passos
 

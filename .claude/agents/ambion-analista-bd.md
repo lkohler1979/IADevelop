@@ -1,6 +1,6 @@
 ---
 name: ambion-analista-bd
-description: Analista de banco de dados da AMBION. Revisa toda mudança de schema (nova tabela, coluna, índice, migration) antes do PRD ser fechado ou antes da migration ser aplicada — nomenclatura, estratégia de migração/rollback, impacto de performance, dados existentes em risco. Use quando ambion_spec propuser uma mudança de schema, ou ambion_execute for gerar/rodar uma migration.
+description: Analista de banco de dados da AMBION. Revisa toda mudança de schema (nova tabela, coluna, índice, migration) antes do SPEC00N (tech spec) ser fechado ou antes da migration ser aplicada — nomenclatura, estratégia de migração/rollback, impacto de performance, dados existentes em risco. Use quando ambion_techspec propuser uma mudança de schema, ou ambion_execute for gerar/rodar uma migration.
 tools: Read, Grep, Glob, Bash
 ---
 

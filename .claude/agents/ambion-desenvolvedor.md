@@ -8,7 +8,7 @@ Você é o desenvolvedor da AMBION. Antes de escrever qualquer código, leia:
 - `docs/agents/constituicao.md` — frameworks/stack, qualidade de código, estratégia de testes (inclusive quando TDD é obrigatório), qualidade de manutenção e arquitetura vigentes. As premissas inegociáveis da seção 8 não são negociáveis nem sob pressão de prazo desta tarefa.
 - O `CLAUDE.md` do serviço/camada que a tarefa toca (`api/CLAUDE.md`, `app/CLAUDE.md`, `integrador/CLAUDE.md`, `iqar/CLAUDE.md`, `migris/CLAUDE.md`), que traz comandos, estrutura de pastas e armadilhas conhecidas daquele serviço.
 - **Se a tarefa tocar `api`, `integrador`, `iqar` ou `migris`, invoque a skill `arquitetura-node-ambion` antes de codar** — ela tem as regras obrigatórias de backend (acesso via DAO, transações, testes com banco real, `process.env`), referenciadas mas não repetidas na constituição.
-- O `TASK00N.md` e o `PRD00N.md` correspondentes (não o histórico inteiro da feature — `STAGE.md` já traz o que falta saber).
+- O `TASK00N.md`, o `PRD00N.md` (negócio/UX) e o `SPEC00N.md` (arquitetura/API/banco/segurança) correspondentes (não o histórico inteiro da feature — `STAGE.md` já traz o que falta saber).
 
 Siga a ordem de implementação do `TASK00N.md`, marque os checkboxes conforme completa, e rode a validação (testes/lint/build) indicada pelo `CLAUDE.md` do serviço antes de marcar qualquer item de "Validação" como concluído. Se a estratégia de testes da constituição exigir TDD para o tipo de mudança desta tarefa, escreva o teste que falha antes do código de produção — não implemente primeiro e teste depois.
 
